@@ -27,8 +27,18 @@ ie integrated inter changeable battery holders for your 18650 and aa/aaa cells,a
 ## images:
 <img width="1352" height="816" alt="image" src="https://github.com/user-attachments/assets/2cb8b124-3fde-4a91-aba6-4c754a50e1d2" />
 <img width="1138" height="796" alt="image" src="https://github.com/user-attachments/assets/41bd3b82-3aca-4ac4-97de-2b4f872db851" />
-
 <img width="1258" height="852" alt="image" src="https://github.com/user-attachments/assets/c94dd7f3-2121-4251-9dd2-5f30dcab4b61" />
 
+
+-------
+# date:23/10
+# time spent:1.25hr
+## description:
+in the next part i built the tester the programmable electronic load designed to safely handle up to a 2A discharge.i setuped the n-channel power MOSFET and the 0.22ohm shunt resistor, managed cleanly by the LM358 op amp control loop.i also locked in the gate protection resistors,and dropped in a handy test point, and then safely tied off the unused half of the op-amp as a buffer to keep things stable.
+Then,i added the precision tracking brains with the INA226 power monitor. then connected it up to the i2c bus complete with pull up resistors, set up clean kelvin connections across a dedicated 0.02ohm sense resistor, added a decoupling cap, and then in a 4 pin jst test header so you can easily plug in external debuggers
+## images:
+<img width="1733" height="752" alt="image" src="https://github.com/user-attachments/assets/5efe719c-22e0-4abf-9925-8afa59459f8b" />
+<img width="1807" height="827" alt="image" src="https://github.com/user-attachments/assets/5358bfb4-3b58-4a54-8c20-2b766075deba" />
+<img width="991" height="836" alt="image" src="https://github.com/user-attachments/assets/830a6164-3fa5-407b-a2ef-b6ef61c39190" />
 
 -------
