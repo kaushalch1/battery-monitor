@@ -4,7 +4,8 @@
 before starting the project, i went through different power models and components to make sure the design could handle the operating conditions. a main part of this is involved analyzing the discharge behavior of a single 18650 Li-ion cell: i recognized that a standard linear LDO regulator would suffer from voltage dropout as the battery go to under load, failing to maintain a stable 3.3V rail. this made me to check and select a robust 3.3v buck boost regulator model capable of stepping voltage both up and down smoothly across the cell  full discharge range.i also mapped out reliable peripheral models integrating dedicated esd protection for the USB-C interface.
 ## images:
 <img width="1137" height="863" alt="image" src="https://github.com/user-attachments/assets/71240793-cbe7-40b4-82b6-5f2269681e93" />
-![Uploading image.png…]()
+<img width="1452" height="847" alt="image" src="https://github.com/user-attachments/assets/820ceee7-1d94-4a73-ac21-cb86071e8493" />
+
 
 
 -------
