@@ -54,3 +54,14 @@ i finalized the core safety systems and the user interface for the hardware desi
 
 
 -------
+# date:23/10
+# time spent:0.75hr
+## description:
+i had added an oled screen so that it can display how much amount of battery is left and then i also ran thedrc and fixed 36 errors
+## images:
+<img width="917" height="443" alt="image" src="https://github.com/user-attachments/assets/7cc25e98-d32b-44e4-be1b-d7f5d1412445" />
+<img width="1822" height="846" alt="image" src="https://github.com/user-attachments/assets/55795ab9-35c7-4688-801b-18225ea56a77" />
+<img width="1773" height="835" alt="image" src="https://github.com/user-attachments/assets/da2660dc-c85b-47fd-8a86-cd3da712ed74" />
+
+
+-------
