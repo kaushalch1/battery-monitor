@@ -65,3 +65,15 @@ i had added an oled screen so that it can display how much amount of battery is 
 
 
 -------
+# date:23/10
+# time spent:1hr
+## description:
+i assigned the footprints for each part and then i had updated the pcb thru schematics an then i had made a layout and then i had moved the parts according to the layout and drew the edge cuts.
+## images:
+<img width="1642" height="888" alt="image" src="https://github.com/user-attachments/assets/6307de7b-0b46-4798-83bb-0ae7d8890c5b" />
+<img width="1646" height="882" alt="image" src="https://github.com/user-attachments/assets/8f3741ab-578d-43ce-8c5f-1812c022bdbb" />
+<img width="622" height="672" alt="image" src="https://github.com/user-attachments/assets/ec79537a-b287-4e6c-b486-dccea0f2c3d3" />
+<img width="1017" height="726" alt="image" src="https://github.com/user-attachments/assets/2912e69d-208d-47b5-ad74-d4a48206e6d2" />
+
+
+-------
