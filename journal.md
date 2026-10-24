@@ -101,3 +101,36 @@ again starting from the remaining half which was left for the pcb ,i had complet
 
 
 -------
+# date:24/10
+# time spent:0.75hr
+## description:
+in wokwi simulator i had took all the parts from the wokwi docs and then i had created the diagram.json file for it and then created the circuit diaagram for it
+## images:
+<img width="931" height="781" alt="image" src="https://github.com/user-attachments/assets/b5997727-7d83-43d2-8d93-dbeb623c70db" />
+<img width="952" height="770" alt="image" src="https://github.com/user-attachments/assets/2433d218-d899-49a4-8a86-472f36961b6d" />
+<img width="938" height="746" alt="image" src="https://github.com/user-attachments/assets/03911d98-47df-444f-a40d-63976ee26374" />
+
+
+-------
+# date:24/10
+# time spent:1hr
+## description:
+i had learnt how to use wokwi simulator and then i completed the firmware by learning from yt videos and also with the help of ai
+## images:
+<img width="947" height="823" alt="image" src="https://github.com/user-attachments/assets/57291367-bcfb-49f7-bb7d-ab81c3074953" />
+<img width="950" height="762" alt="image" src="https://github.com/user-attachments/assets/dc71613e-5d18-446f-bc27-37a753c8dd1d" />
+<img width="467" height="377" alt="image" src="https://github.com/user-attachments/assets/76301196-2ff8-4834-81d6-8fa542578dd3" />
+
+
+-------
+# date:24/10
+# time spent:0.5hr
+## description:
+i rendered all gerber files and added them in the repo and also made a bom and also added them in repo.I also added the readme for the repo
+## images:
+<img width="1202" height="763" alt="image" src="https://github.com/user-attachments/assets/64e1ec30-9085-478f-9632-1cce81bbf3de" />
+<img width="1906" height="730" alt="image" src="https://github.com/user-attachments/assets/3ece9d6f-38a9-46b2-95c2-335fd55d2a69" />
+
+
+
+-------
