@@ -1,4 +1,4 @@
-# date:22/10
+<img width="1063" height="795" alt="image" src="https://github.com/user-attachments/assets/ffb2c896-c963-409e-b297-91249ad1bdf2" /># date:22/10
 # time spent:1.25hr
 ## description:
 before starting the project, i went through different power models and components to make sure the design could handle the operating conditions. a main part of this is involved analyzing the discharge behavior of a single 18650 Li-ion cell: i recognized that a standard linear LDO regulator would suffer from voltage dropout as the battery go to under load, failing to maintain a stable 3.3V rail. this made me to check and select a robust 3.3v buck boost regulator model capable of stepping voltage both up and down smoothly across the cell  full discharge range.i also mapped out reliable peripheral models integrating dedicated esd protection for the USB-C interface.
@@ -74,6 +74,30 @@ i assigned the footprints for each part and then i had updated the pcb thru sche
 <img width="1646" height="882" alt="image" src="https://github.com/user-attachments/assets/8f3741ab-578d-43ce-8c5f-1812c022bdbb" />
 <img width="622" height="672" alt="image" src="https://github.com/user-attachments/assets/ec79537a-b287-4e6c-b486-dccea0f2c3d3" />
 <img width="1017" height="726" alt="image" src="https://github.com/user-attachments/assets/2912e69d-208d-47b5-ad74-d4a48206e6d2" />
+
+
+-------
+# date:24/10
+# time spent:1hr
+## description:
+after arranging the parts i had started routing and then routed the half part of the pcb.
+## images:
+<img width="1237" height="790" alt="image" src="https://github.com/user-attachments/assets/6ff30d12-56d7-4657-8b20-16c76be7790c" />
+<img width="1237" height="790" alt="image" src="https://github.com/user-attachments/assets/eb58dfd4-302b-4630-be67-e883289d4079" />
+<img width="1238" height="797" alt="image" src="https://github.com/user-attachments/assets/0254b1b4-7b67-49dc-a109-d06e386b36c0" />
+
+-------
+# date:24/10
+# time spent:1.25hr
+## description:
+again starting from the remaining half which was left for the pcb ,i had completed routing the other half of the pcb and then filling it  by the copper zone on the 2 faces and then i ran the erc and found 20 errors and fixed them too and then i haad checked the 3d viewer and exported the pcb
+## images:
+<img width="810" height="783" alt="image" src="https://github.com/user-attachments/assets/31319be4-8eb2-4b0d-9676-0982fba61085" />
+<img width="1040" height="787" alt="image" src="https://github.com/user-attachments/assets/2c7e91ae-b65a-4b0d-aad3-9f3a31e96c89" />
+<img width="1180" height="782" alt="image" src="https://github.com/user-attachments/assets/13dd5b8a-e82e-4f54-9d25-d3d4b56baa53" />
+<img width="822" height="780" alt="image" src="https://github.com/user-attachments/assets/fbedf4b4-c379-4131-ab84-4f9c291fcbe9" />
+<img width="1521" height="817" alt="image" src="https://github.com/user-attachments/assets/4fdda0eb-100b-4f0b-9b96-6c9b4f9676a6" />
+<img width="1596" height="877" alt="image" src="https://github.com/user-attachments/assets/fa0719e0-f809-4134-8acf-4cd9a6cd0938" />
 
 
 -------
