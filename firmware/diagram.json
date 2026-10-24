@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "author": "CellCheck Pro",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-s3-devkitc-1",
+      "id": "esp",
+      "top": 30,
+      "left": 20,
+      "attrs": { "flashSize": "8" }
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": -60,
+      "left": -260,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    {
+      "type": "chip-ina226",
+      "id": "ina1",
+      "top": -40,
+      "left": 280,
+      "attrs": { "busVoltage": "3.70", "current": "0.50" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "batterySensePot",
+      "top": 230,
+      "left": -260,
+      "attrs": { "value": "512" }
+    },
+    {
+      "type": "wokwi-ntc-temperature-sensor",
+      "id": "ntc1",
+      "top": 230,
+      "left": 280,
+      "attrs": { "temperature": "25", "beta": "3950" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnStart",
+      "top": 160,
+      "left": -130,
+      "attrs": { "color": "green", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnStop",
+      "top": 210,
+      "left": -130,
+      "attrs": { "color": "red", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnChemistry",
+      "top": 260,
+      "left": -130,
+      "attrs": { "color": "blue", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rStartPullup",
+      "top": 145,
+      "left": 30,
+      "attrs": { "value": "10000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rStopPullup",
+      "top": 195,
+      "left": 30,
+      "attrs": { "value": "10000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rChemPullup",
+      "top": 245,
+      "left": 30,
+      "attrs": { "value": "10000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledStatus",
+      "top": -120,
+      "left": 300,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rStatus",
+      "top": -120,
+      "left": 210,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledFault",
+      "top": -70,
+      "left": 300,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rFault",
+      "top": -70,
+      "left": 210,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rSdaPullup",
+      "top": 20,
+      "left": 220,
+      "attrs": { "value": "4700" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rSclPullup",
+      "top": 55,
+      "left": 220,
+      "attrs": { "value": "4700" }
+    }
+  ],
+  "connections": [
+    ["esp:TX", "$serialMonitor:RX", "", []],
+    ["esp:RX", "$serialMonitor:TX", "", []],
+    ["esp:3V3.1", "oled1:VCC", "red", []],
+    ["esp:GND.1", "oled1:GND", "black", []],
+    ["esp:8", "oled1:SDA", "blue", []],
+    ["esp:9", "oled1:SCL", "green", []],
+    ["esp:3V3.1", "ina1:VCC", "red", []],
+    ["esp:GND.1", "ina1:GND", "black", []],
+    ["esp:8", "ina1:SDA", "blue", []],
+    ["esp:9", "ina1:SCL", "green", []],
+    ["esp:3V3.1", "rSdaPullup:1", "red", []],
+    ["rSdaPullup:2", "esp:8", "blue", []],
+    ["esp:3V3.1", "rSclPullup:1", "red", []],
+    ["rSclPullup:2", "esp:9", "green", []],
+    ["batterySensePot:VCC", "esp:3V3.1", "red", []],
+    ["batterySensePot:GND", "esp:GND.1", "black", []],
+    ["batterySensePot:SIG", "esp:1", "green", []],
+    ["ntc1:VCC", "esp:3V3.1", "red", []],
+    ["ntc1:GND", "esp:GND.1", "black", []],
+    ["ntc1:OUT", "esp:10", "green", []],
+    ["btnStart:1.l", "esp:4", "green", []],
+    ["btnStart:2.r", "esp:GND.1", "black", []],
+    ["esp:3V3.1", "rStartPullup:1", "red", []],
+    ["rStartPullup:2", "esp:4", "green", []],
+    ["btnStop:1.l", "esp:5", "green", []],
+    ["btnStop:2.r", "esp:GND.1", "black", []],
+    ["esp:3V3.1", "rStopPullup:1", "red", []],
+    ["rStopPullup:2", "esp:5", "green", []],
+    ["btnChemistry:1.l", "esp:6", "green", []],
+    ["btnChemistry:2.r", "esp:GND.1", "black", []],
+    ["esp:3V3.1", "rChemPullup:1", "red", []],
+    ["rChemPullup:2", "esp:6", "green", []],
+    ["esp:11", "rStatus:1", "green", []],
+    ["rStatus:2", "ledStatus:A", "green", []],
+    ["ledStatus:C", "esp:GND.1", "black", []],
+    ["esp:12", "rFault:1", "green", []],
+    ["rFault:2", "ledFault:A", "green", []],
+    ["ledFault:C", "esp:GND.1", "black", []]
+  ],
+  "serialMonitor": {
+    "display": "auto",
+    "newline": "crlf",
+    "convertEol": false
+  },
+  "dependencies": {}
+}
