@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
+%TF.CreationDate,2026-10-24T18:10:56+05:30*%
+%TF.ProjectId,battery monitor,62617474-6572-4792-906d-6f6e69746f72,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-24 18:10:56*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X87500000Y-54500000D02*
+X222000000Y-54500000D01*
+X222000000Y-141500000D01*
+X87500000Y-141500000D01*
+X87500000Y-54500000D01*
+M02*
