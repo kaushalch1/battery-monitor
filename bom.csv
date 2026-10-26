@@ -1,30 +1,30 @@
 Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
-ESP32-S3-WROOM-1 (N16R8 assumed),Main MCU (Wi-Fi/BLE),1,5.54,https://www.lcsc.com/product-detail/C2913202.html,LCSC
-MCP9808T-E/MC (DFN-8),Digital temperature sensor,1,2.55,https://www.lcsc.com/product-detail/C194710.html,LCSC
-0.91 inch OLED (ER-OLEDM0.91-1W-I2C),Display,1,2.8,https://www.buydisplay.com/i2c-white-0-91-inch-oled-display-module-128x32-arduino-raspberry-pi,BuyDisplay
-TPS63020DSJR,Buck-boost converter,1,0.91,https://www.lcsc.com/product-detail/C15483.html,LCSC
-INA226AIDGSR,Voltage/current/power monitor,1,0.65,https://www.lcsc.com/product-detail/C49851.html,LCSC
-18650 holder (BH-18650-A1AJ006),18650 cell holder,1,0.49,https://www.lcsc.com/product-detail/C5290175.html,LCSC
-AA holder (BH-AA-A5BJ012),AA cell holder,1,0.46,https://www.lcsc.com/product-detail/C5290180.html,LCSC
-"NMOS TO-252 (Q2, Q3)",Load/discharge switching MOSFETs,2,0.4,https://www.lcsc.com/search?q=NMOS+TO-252,LCSC
-"SMD tact switch (EVP-BF type, SW4-SW6)",User buttons,3,0.45,https://www.lcsc.com/search?q=EVPBF+tactile+switch,LCSC
-"LM397 comparator (HGSEMI LM397M5/TR, SOT-23-5)",Comparator,1,0.31,https://www.lcsc.com/product-detail/C910849.html,LCSC
-DPDT slide switch (JS202011JCQN),Mode/power switch SW3,1,0.25,https://www.lcsc.com/search?q=JS202011JCQN,LCSC
-USB-C receptacle (TYPE-C-31-M-12),USB-C port,1,0.19,https://www.lcsc.com/product-detail/C165948.html,LCSC
-USBLC6-2SC6,USB ESD protection,1,0.13,https://www.lcsc.com/product-detail/C7519.html,LCSC
-1.5uH inductor (Sunlord MWSA0402S),Buck-boost inductor,1,0.1,https://www.lcsc.com/search?q=MWSA0402S-1R5,LCSC
-LM358 (SOIC-8),Dual op-amp,1,0.1,https://www.lcsc.com/search?q=LM358+SOIC-8,LCSC
-"JST XH 2-pin header (J2, J3)",Connectors,2,0.08,https://www.lcsc.com/search?q=B2B-XH-A,LCSC
-"Tact switch 6mm THT (SW1, SW2)",User buttons,2,0.07,https://www.lcsc.com/search?q=tactile+switch+6x6+THT,LCSC
-PMOS SOT-23 (Q1),Reverse-polarity/power switch,1,0.05,https://www.lcsc.com/search?q=PMOS+SOT-23,LCSC
-JST XH 4-pin header (B4B-XH-A),Sensor/expansion connector,1,0.05,https://www.lcsc.com/product-detail/C144395.html,LCSC
-Fuse 1206,Overcurrent protection,1,0.05,https://www.lcsc.com/search?q=1206+fuse,LCSC
-NTC 10k 0805,Temperature sensing thermistor,1,0.04,https://www.lcsc.com/search?q=10k+NTC+0805,LCSC
-LED 0603,Status LEDs,2,0.04,https://www.lcsc.com/search?q=0603+LED,LCSC
-10uF capacitor 0603,Bulk/decoupling capacitors,3,0.04,https://www.lcsc.com/search?q=10uF+0603+MLCC,LCSC
-100nF capacitor 0603,IC bypass capacitors,3,0.01,https://www.lcsc.com/search?q=100nF+0603+MLCC,LCSC
-"Resistors 0603 (0.02, 0.22, 220, 1k, 2.4k, 4.7k, 5.1k, 10k, 100k)","Dividers, pull-ups, current sense",21,0.14,https://www.lcsc.com/search?q=0603+1%25+resistor,LCSC
-"PCB (bare boards, JLCPCB minimum order of 5)",Main PCBs,5,2,https://jlcpcb.com/,JLCPCB
-"PCB assembly (PCBA setup + stencil + fees, 1-board order)",SMT + through-hole assembly fees,1,7,https://jlcpcb.com/,JLCPCB
+ESP32-S3-WROOM-1,Main microcontroller,1,5.54,https://www.lcsc.com/product-detail/C2913202.html,LCSC
+MCP9808 temperature sensor,Measures temperature,1,2.55,https://www.lcsc.com/product-detail/C194710.html,LCSC
+0.91 inch OLED display,Shows readings on screen,1,2.8,https://www.buydisplay.com/i2c-white-0-91-inch-oled-display-module-128x32-arduino-raspberry-pi,BuyDisplay
+TPS63020 buck-boost converter,Keeps the supply voltage steady as the battery drains,1,0.91,https://www.lcsc.com/product-detail/C15483.html,LCSC
+INA226 power monitor,Measures battery voltage and current,1,0.65,https://www.lcsc.com/product-detail/C49851.html,LCSC
+18650 battery holder,Holds the 18650 cell,1,0.49,https://www.lcsc.com/product-detail/C5290175.html,LCSC
+AA battery holder,Holds an AA cell,1,0.46,https://www.lcsc.com/product-detail/C5290180.html,LCSC
+N-channel MOSFETs,Switching and load control,2,0.4,https://www.lcsc.com/search?q=NMOS+TO-252,LCSC
+SMD push buttons,Navigation buttons,3,0.45,https://www.lcsc.com/search?q=EVPBF+tactile+switch,LCSC
+LM397 comparator,Compares voltage levels,1,0.31,https://www.lcsc.com/product-detail/C910849.html,LCSC
+DPDT slide switch,Mode switch,1,0.25,https://www.lcsc.com/search?q=JS202011JCQN,LCSC
+USB-C port,Charging and power input,1,0.19,https://www.lcsc.com/product-detail/C165948.html,LCSC
+USBLC6 ESD protection,Protects the USB port from static,1,0.13,https://www.lcsc.com/product-detail/C7519.html,LCSC
+1.5uH inductor,Used by the buck-boost converter,1,0.1,https://www.lcsc.com/search?q=MWSA0402S-1R5,LCSC
+LM358 op-amp,Signal amplification,1,0.1,https://www.lcsc.com/search?q=LM358+SOIC-8,LCSC
+JST XH 2-pin connectors,Battery and power connectors,2,0.08,https://www.lcsc.com/search?q=B2B-XH-A,LCSC
+Push buttons,Extra user buttons,2,0.07,https://www.lcsc.com/search?q=tactile+switch+6x6+THT,LCSC
+P-channel MOSFET,Power switching,1,0.05,https://www.lcsc.com/search?q=PMOS+SOT-23,LCSC
+JST XH 4-pin connector,Sensor/expansion connector,1,0.05,https://www.lcsc.com/product-detail/C144395.html,LCSC
+1206 fuse,Overcurrent protection,1,0.05,https://www.lcsc.com/search?q=1206+fuse,LCSC
+10k thermistor,Temperature sensing,1,0.04,https://www.lcsc.com/search?q=10k+NTC+0805,LCSC
+Status LEDs,Indicator lights,2,0.04,https://www.lcsc.com/search?q=0603+LED,LCSC
+10uF capacitors,Power supply filtering,3,0.04,https://www.lcsc.com/search?q=10uF+0603+MLCC,LCSC
+100nF capacitors,Noise filtering,3,0.01,https://www.lcsc.com/search?q=100nF+0603+MLCC,LCSC
+Resistors (0603),"Pull-ups, voltage dividers and current sensing",21,0.14,https://www.lcsc.com/search?q=0603+1%25+resistor,LCSC
+PCB,Main PCBs (JLCPCB minimum order is 5),5,2,https://jlcpcb.com/,JLCPCB
+PCB assembly,"Assembly fees for one board (setup, stencil, soldering)",1,4.5,https://jlcpcb.com/,JLCPCB
 ,,,,,
 ,,,25.85,,
